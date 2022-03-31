@@ -1,0 +1,25 @@
+{
+  "name": "task_12_webservices",
+  "version": "1.0.0",
+  "description": "Task 12",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha test/specs/**.spec.js --config ./test/config/.mocharc.cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axferox/Task_12_WebServices.git"
+  },
+  "author": "axferox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axferox/Task_12_WebServices/issues"
+  },
+  "homepage": "https://github.com/axferox/Task_12_WebServices#readme",
+  "devDependencies": {
+    "axios": "^0.25.0",
+    "chai": "^4.3.4",
+    "mocha": "^9.1.4"
+  }
+}
